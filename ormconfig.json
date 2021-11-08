@@ -1,0 +1,14 @@
+
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "database": "library",
+    "username": "root",
+    "password": "mtcdev",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true,
+    "autoLoadEntities": true,
+    "logging": false,
+    "logger": "advanced-console"
+}
